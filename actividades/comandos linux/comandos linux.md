@@ -17,6 +17,9 @@
 ![Captura desde 2024-04-23 21-06-08](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/3dafca50-075c-4167-affb-820e463cc88b)
 ![Captura desde 2024-04-23 21-08-23](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/82482fa8-83c8-4f72-a3bb-7dbceac7268a)
 ![Captura desde 2024-04-23 21-10-11](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/072b635e-f5a9-4fef-a810-a2986d5d50bf)
+![Captura desde 2024-04-23 21-10-42](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/489876c3-1850-4f1e-a8ac-cdb01e1fa552)
+![Captura desde 2024-04-23 21-11-32](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/aad2602a-5306-4db7-86b7-3db61a003bc3)
+![Captura desde 2024-04-23 21-12-33](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/0abcdf74-84cb-4994-a5b0-4d035e515be9)
 
 2. Comenzamos con la manipulacion de archivos y directorios.
 
@@ -53,11 +56,6 @@ Debido a que se cerró la pestaña abierta anteriormente, los comandos *bg, kill
 ![Captura desde 2024-04-23 22-35-27](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/9d773d15-8933-440a-be96-432e8ef37166)
 ![Captura desde 2024-04-23 22-37-20](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/a68fbf9f-5cf5-47a5-a719-6e9bae5e6de7)
 
-Revisión de las carpetas dentro de otras rutas:
-
-![Captura desde 2024-04-23 21-10-42](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/489876c3-1850-4f1e-a8ac-cdb01e1fa552)
-![Captura desde 2024-04-23 21-11-32](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/aad2602a-5306-4db7-86b7-3db61a003bc3)
-![Captura desde 2024-04-23 21-12-33](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/0abcdf74-84cb-4994-a5b0-4d035e515be9)
 ![Captura desde 2024-04-23 22-00-31](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/e5ac43f5-c277-4ed9-b5eb-2ee7ff4d8291)
 ![Captura desde 2024-04-23 22-01-12](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f0c97383-0a5c-45e3-b3d9-e12066d0d805)
 ![Captura desde 2024-04-23 22-01-21](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/9e80eb8e-5687-4513-a518-0d72b2686f90)
