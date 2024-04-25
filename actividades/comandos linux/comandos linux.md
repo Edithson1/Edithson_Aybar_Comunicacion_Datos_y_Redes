@@ -1,4 +1,4 @@
-1. Primeros pasos en la configuracion Linux.
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/0a161fb9-e45e-45c6-8991-ede8651d0c6c)1. Primeros pasos en la configuracion Linux.
 - prueba inicial de teclado, volver a los comandos anteriores a través de las flechas, y desplazamiento de derecha a izquierda del comando:
 
 ![Captura desde 2024-04-23 19-56-04](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/4aead450-eac8-40f2-9f08-042cc60f7b7e)
@@ -97,11 +97,61 @@ Los comando *cp, rm, mv* no se ejecutaran si los arhivos o directorios que selec
 
 ![Captura desde 2024-04-24 22-29-35](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f76e4570-2c7e-4330-9982-b972b37f25c8)
 
+4. Impresion con Echo.
 
+- Para imprimir usamos *echo <texto>*, y si usamos *<echo * >* o *<echo $(ls)>* imprimimos los archivos y directorios dentro del directorio en el que nos encontramos:
+![Captura desde 2024-04-24 22-37-24](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/197db84d-f9de-43b2-8571-bf489269dd23)
 
+- Luego del echo, con *< D* >*, se imprime todos los que empiecen con la letra "D", Con *< * s >* se imprime todos los que terminen con la "s", [[:upper:]]* imprime todos los que empiecen con mayuscula, y /usr/*/share imprime los directorios que empiecen con /user y terminen con /share:
 
+![Captura desde 2024-04-24 22-41-36](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/3cab8ac2-d766-43f1-abd7-dfb878023fcc)
 
+- Con <echo ~> se imprime el directorio de origen:
 
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/6bd22b54-32d5-491a-bcbf-e5f76606eaea)
 
+- Usando *<echo $((expression))>* imprimimos el resultado de la expresion de nuestra preferencia, aqui algunos ejemplos:
+ 
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f2afc931-800c-402d-aaae-c17665d22e46)
 
+-Usando *<echo {lsita})>* imprimimos una lista de nuestra eleccion, esta impresion se puede convinar con mas texto, como en estos ejemplos:
 
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/d188b4f2-d190-4c13-a99d-aba9931d0b40)
+
+- Tambien se pueden usar las listas para crear directorios, en el siguiente ejemplo se crea y se ingresa al directorio *archivos*, y dentro del directorio archivos se crean directorios, cuyos nombres empiezan con (2017, 2018 o 2019), y teminan con (01, 02, ..., 12):
+
+![Captura desde 2024-04-24 22-59-23](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/7cf066fe-bc96-41dc-b4d8-7f07a3313872)
+
+![Captura desde 2024-04-24 22-59-38](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/df8c5bcc-4cdc-40e2-94c3-fd103bc2fa44)
+
+- Usando *printenv | less*, se desplegara una lista de variables con sus impresiones que podemos usar:
+![Captura desde 2024-04-24 23-04-23](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/6888bb4b-eba3-45e8-bb0c-4a3bb8265e10)
+![Captura desde 2024-04-24 23-04-45](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/0f5eb8ac-e621-4c27-add6-e3e5d9be7875)
+
+- Con *ls -l $(which cp) y ls -l `which cp`* se mostrara informacion detalla del archivo al que apunta el cp:
+
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/e7a17ba6-cf4b-429a-a088-99207c6b66cc)
+
+- El comando echo suele proporciona un mecanismo el cual suprime selectivamente las expansiones no deseadas:
+
+![Captura desde 2024-04-24 23-17-23](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/4de3eea1-b143-4b0e-ae9a-6c81fb9c3060)
+
+- Con el uso de comillas, se pueden selecionar archivos o directorios con el nombre dividido, ademas tablien se imprimen los mensajes completos dentro de las comillas, e imprimir por filas si es requerido como con el comando "$(cal)":
+
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/90a2b3db-c25a-4730-bd39-269fc54157a3)
+
+- La impresion de varion comando combinados cambia dependiendo si es solo, se imprime segun lo requerido; con comillas dobles se omiten la impresion de los nombres de los archivos y directorios; y con comillas simples se imprime el texto tal cual dentro de las comillas.
+
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f642b325-dc67-4560-9e1a-0efc2515e5cf)
+
+- Algunas interaciones entre el comando *<echo -e>* y diversos mensajes entre comillas doble con texto que contienen comandos especificos; con /n se genera un espacio luego de la impresion; con \ se crea un espacio entre las palabras; para que cierta secciòn del texto se imprima con comillas hay que cerra las comillas, escribir el texto, y volver a abrir las comillas; y si hay \\, este se convierte en \.
+
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/8e16a347-7195-419a-8681-b8936f747992)
+
+-Con *xload* abrimos la representacion grafica de la carga del sistema, pero no deja hacer modificacion al terminal, pero con *xload &* si podemos ejecutar a la vez que modificamos el terminal, con *ps* se observan las pestañas de la grafica abierta, con *jobs* se ve la cantidad de graficas en ejecucion, y con *kill number* detenemos la grafica de dicho numero:
+![Captura desde 2024-04-24 23-46-09](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/05340833-40a2-4868-8208-39cc38c840f1)
+![Captura desde 2024-04-24 23-46-18](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/72dc8ce2-a653-4985-bb14-2e9da6bf2096)
+
+- Con *ps x | grep bad_program*, se ve el proceso en ejecucion, y con *kill -SIGTERM o kill -SIGKILL*, tambien se pueden eliminar estos procesos:
+
+![imagen](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/8f02af0e-59ca-4fe6-8cb7-ee872a2873c8)
