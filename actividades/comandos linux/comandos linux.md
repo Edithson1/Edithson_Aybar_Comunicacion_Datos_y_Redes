@@ -81,4 +81,27 @@ Los comando *cp, rm, mv* no se ejecutaran si los arhivos o directorios que selec
 
 ![Captura desde 2024-04-24 21-52-07](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/059292ab-306a-405f-91a9-47c576e80614)
 
+- el comando *ls -l | less* muestra el *ls* ordenado en *less*:
+
+![Captura desde 2024-04-24 22-23-55](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/6103b12b-0aba-4ba3-b552-bf4019b8cb95)
+
+- Vemos los 10 archivos más nuevos en el directorio actual:
+
+![Captura desde 2024-04-24 22-29-04](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/60435945-11ab-4f6d-a0f4-8acfde9aee64)
+
+- Visualizamos una lista de directorios con su tamaño, ordenados desde el mas pesado:
+
+![Captura desde 2024-04-24 22-29-15](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/3d4ac20a-d11a-470a-aa07-bea7b62e5db0)
+
+- El total de archivos en este directorio:
+
+![Captura desde 2024-04-24 22-29-35](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f76e4570-2c7e-4330-9982-b972b37f25c8)
+
+
+
+
+
+
+
+
 
