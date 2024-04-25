@@ -43,7 +43,27 @@ Los comando *cp, rm, mv* no se ejecutaran si los arhivos o directorios que selec
 
 3. Trabajando con comando.
 
-- analizamos con *type* el tipo de datos que botara cada comando
+- analizamos con *type* el tipo de datos que botara cada comando:
 
 ![Captura desde 2024-04-24 20-48-51](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/9cc7db34-98ee-4af8-a031-40dd745fbbf9)
+
+- Utilizamos *which* para ver la ubicacion exacta donde se ejcuta el comando, y el *help -m* para ver una mejor descripcion del comando:
+
+![Captura desde 2024-04-24 20-53-49](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/e62b732e-d5f7-4e84-8116-5242a0058440)
+
+- Con el *mkdir --help* se despliega las opciones de ayuda que podemos tener:
+
+![Captura desde 2024-04-24 21-00-32](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/9d9e4bd5-775f-49d7-8ce3-f3ad289b9220)
+
+- Usnado el comando *man ls*, se despliega una pestaña llena de informacion de este comando, desde el nombre, una sinopsys, descripcion con comandos en orden alfabetico, el author, bugs reportados, el copyright:
+
+![Captura desde 2024-04-24 21-05-29](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/ee1edcec-1bda-4615-b2b2-714c12b7d798)
+![Captura desde 2024-04-24 21-05-43](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/d6510ac8-6143-4fa0-bee9-9d6b71b6e015)
+![Captura desde 2024-04-24 21-05-57](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/fe2d3aa7-6e73-4f8b-9c69-3a68eefd4b73)
+![Captura desde 2024-04-24 21-06-14](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/35358784-a339-4979-bef2-99795b8fb835)
+![Captura desde 2024-04-24 21-06-44](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/f1acedb7-0979-4ad7-b850-b2f43a6164fb)
+![Captura desde 2024-04-24 21-07-12](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/eed97691-1c6b-4940-a564-b1234703b16a)
+
+
+
 
