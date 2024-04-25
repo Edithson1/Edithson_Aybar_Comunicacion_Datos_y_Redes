@@ -65,5 +65,20 @@ Los comando *cp, rm, mv* no se ejecutaran si los arhivos o directorios que selec
 ![Captura desde 2024-04-24 21-07-12](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/eed97691-1c6b-4940-a564-b1234703b16a)
 
 
+- al utilizar el comando *ls > file_list.txt* se crea un archivo *file_list.txt* donde se alamacena la salida del *ls*, y cada ves que se ejecute, el archivo se sobreescribe:
+
+![Captura desde 2024-04-24 21-38-03](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/25331076-a26e-4a35-ab1b-30af6ffd224a)
+
+- al utilizar el comando *ls >> file_list.txt* se añadira la salida del *ls* al final del archivo *file_list.txt*
+
+![Captura desde 2024-04-24 21-47-17](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/09110a25-ace9-4776-9884-37af1c452714)
+
+- el comando *sort < file_list.txt*, mostrara de forma ordenada los elementos dentro de *file_list.txt*:
+
+![Captura desde 2024-04-24 21-49-46](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/20b361cb-0909-4297-9cf6-4337af5253cc)
+
+- el comando *sort < file_list.txt > sorted_file_list.txt* creara un nuevo archivo *sorted_file_list.txt* con los elementos ordenados de *file_list.txt*:
+
+![Captura desde 2024-04-24 21-52-07](https://github.com/Edithson1/Edithson_Aybar_Comunicacion_Datos_y_Redes/assets/152218004/059292ab-306a-405f-91a9-47c576e80614)
 
 
