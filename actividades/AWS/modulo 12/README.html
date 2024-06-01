@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0161)https://labs.vocareum.com/web/3265539/2759781.0/ASNLIB/public/docs/lang/es-es/README.html?vockey=e480853b982a0f981c8a2de98c1acab409ff87412b3945bd40d466b0325829c6 -->
+<!-- saved from url=(0089)https://labs.vocareum.com/web/3265539/2759787.0/ASNLIB/public/docs/lang/es-es/README.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width initial-scale=1">
 
@@ -19,7 +19,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
   .CodeMirror-sizer { margin-left: 0px !important; }
@@ -27,7 +27,7 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
-img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+img { max-width: 100%; vertical-align: middle; }
 button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
@@ -46,7 +46,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.701961); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -85,11 +85,11 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print { 
-  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid-page; break-before: avoid-page; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  .typora-export #write { break-after: avoid; }
+  .typora-export #write { break-after: avoid-page; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
@@ -122,7 +122,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) { 
+@media screen and (max-width: 48em) {
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -159,7 +159,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-posit
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print { 
+@media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -173,11 +173,11 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
-.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) { 
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow-y: auto; padding-bottom: 30px; padding-top: 60px; width: 300px; overflow-x: hidden; }
+@media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
 .outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
@@ -213,66 +213,52 @@ mark .md-meta { color: rgb(0, 0, 0); }
 
 
 :root {
-    --side-bar-bg-color: #fafafa;
+    --side-bar-bg-color : #fafafa;
     --control-text-color: #777;
 }
 
 @include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
 
-/* open-sans-regular - latin-ext_latin */
-  /* open-sans-italic - latin-ext_latin */
-    /* open-sans-700 - latin-ext_latin */
-    /* open-sans-700italic - latin-ext_latin */
-  html {
+html {
     font-size: 16px;
 }
 
 body {
-    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: rgb(51, 51, 51);
+    font-family: "Amazon Ember", "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color      : rgb(51, 51, 51);
     line-height: 1.6;
 }
 
 #write {
-    max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
+    max-width     : 860px;
+    margin        : 0 auto;
+    padding       : 30px;
     padding-bottom: 100px;
 }
 
-@media only screen and (min-width: 1400px) {
-	#write {
-		max-width: 1024px;
-	}
-}
-
-@media only screen and (min-width: 1800px) {
-	#write {
-		max-width: 1200px;
-	}
-}
-
-#write > ul:first-child,
-#write > ol:first-child{
+#write>ul:first-child,
+#write>ol:first-child {
     margin-top: 30px;
 }
 
 a {
     color: #4183C4;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    position: relative;
-    margin-top: 1rem;
+    position     : relative;
+    margin-top   : 1rem;
     margin-bottom: 1rem;
-    font-weight: bold;
-    line-height: 1.4;
-    cursor: text;
+    font-weight  : bold;
+    line-height  : 1.4;
+    cursor       : text;
 }
+
 h1:hover a.anchor,
 h2:hover a.anchor,
 h3:hover a.anchor,
@@ -281,148 +267,159 @@ h5:hover a.anchor,
 h6:hover a.anchor {
     text-decoration: none;
 }
+
 h1 tt,
 h1 code {
     font-size: inherit;
 }
+
 h2 tt,
 h2 code {
     font-size: inherit;
 }
+
 h3 tt,
 h3 code {
     font-size: inherit;
 }
+
 h4 tt,
 h4 code {
     font-size: inherit;
 }
+
 h5 tt,
 h5 code {
     font-size: inherit;
 }
+
 h6 tt,
 h6 code {
     font-size: inherit;
 }
+
 h1 {
-    font-size: 2.25em;
-    line-height: 1.2;
-    border-bottom: 1px solid #eee;
+    padding-bottom: .3em;
+    font-size     : 2.25em;
+    line-height   : 1.2;
+    border-bottom : 1px solid #eee;
 }
+
 h2 {
-    font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee;
+    padding-bottom: .3em;
+    font-size     : 1.75em;
+    line-height   : 1.225;
+    border-bottom : 1px solid #eee;
 }
-
-/*@media print {
-    .typora-export h1,
-    .typora-export h2 {
-        border-bottom: none;
-        padding-bottom: initial;
-    }
-
-    .typora-export h1::after,
-    .typora-export h2::after {
-        content: "";
-        display: block;
-        height: 100px;
-        margin-top: -96px;
-        border-top: 1px solid #eee;
-    }
-}*/
 
 h3 {
-    font-size: 1.5em;
+    font-size  : 1.5em;
     line-height: 1.43;
 }
+
 h4 {
     font-size: 1.25em;
 }
+
 h5 {
     font-size: 1em;
 }
+
 h6 {
-   font-size: 1em;
-    color: #777;
+    font-size: 1em;
+    color    : #777;
 }
+
 p,
 blockquote,
 ul,
 ol,
 dl,
-table{
+table {
     margin: 0.8em 0;
 }
+
 li>ol,
 li>ul {
     margin: 0 0;
 }
+
 hr {
-    height: 2px;
-    padding: 0;
-    margin: 16px 0;
+    height          : 2px;
+    padding         : 0;
+    margin          : 16px 0;
     background-color: #e7e7e7;
-    border: 0 none;
-    overflow: hidden;
-    box-sizing: content-box;
+    border          : 0 none;
+    overflow        : hidden;
+    box-sizing      : content-box;
 }
 
 li p.first {
     display: inline-block;
 }
+
 ul,
 ol {
     padding-left: 30px;
 }
+
 ul:first-child,
 ol:first-child {
     margin-top: 0;
 }
+
 ul:last-child,
 ol:last-child {
     margin-bottom: 0;
 }
+
 blockquote {
     border-left: 4px solid #dfe2e5;
-    padding: 0 15px;
-    color: #777777;
+    padding    : 0 15px;
+    color      : #777777;
 }
+
 blockquote blockquote {
     padding-right: 0;
 }
+
 table {
-    padding: 0;
+    padding   : 0;
     word-break: initial;
 }
+
 table tr {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 0;
+    border-top: 1px solid #dfe2e5;
+    margin    : 0;
+    padding   : 0;
 }
+
 table tr:nth-child(2n),
 thead {
     background-color: #f8f8f8;
 }
-table th {
-    font-weight: bold;
-    border: 1px solid #dfe2e5;
+
+table tr th {
+    font-weight  : bold;
+    border       : 1px solid #dfe2e5;
     border-bottom: 0;
-    margin: 0;
+    margin       : 0;
+    padding      : 6px 13px;
+}
+
+table tr td {
+    border : 1px solid #dfe2e5;
+    margin : 0;
     padding: 6px 13px;
 }
-table td {
-    border: 1px solid #dfe2e5;
-    margin: 0;
-    padding: 6px 13px;
-}
-table th:first-child,
-table td:first-child {
+
+table tr th:first-child,
+table tr td:first-child {
     margin-top: 0;
 }
-table th:last-child,
-table td:last-child {
+
+table tr th:last-child,
+table tr td:last-child {
     margin-bottom: 0;
 }
 
@@ -431,105 +428,112 @@ table td:last-child {
 }
 
 .code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
     border-top: 1px solid #eef2f2;
 }
 
 .md-fences,
 code,
 tt {
-    border: 1px solid #e7eaed;
+    border          : 1px solid #e7eaed;
     background-color: #f8f8f8;
-    border-radius: 3px;
-    padding: 0;
-    padding: 2px 4px 0px 4px;
-    font-size: 0.9em;
+    border-radius   : 3px;
+    padding         : 0;
+    padding         : 2px 4px 0px 4px;
+    font-size       : 0.9em;
 }
 
 code {
     background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
+    padding         : 0 2px 0 2px;
 }
 
 .md-fences {
-    margin-bottom: 15px;
-    margin-top: 15px;
-    padding-top: 8px;
+    margin-bottom : 15px;
+    margin-top    : 15px;
+    padding-top   : 8px;
     padding-bottom: 6px;
 }
 
 
-.md-task-list-item > input {
-  margin-left: -1.3em;
+.md-task-list-item>input {
+    margin-left: -1.3em;
 }
 
 @media print {
     html {
         font-size: 13px;
     }
+
     table,
     pre {
         page-break-inside: avoid;
     }
+
     pre {
         word-wrap: break-word;
     }
 }
 
 .md-fences {
-	background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
+
 #write pre.md-meta-block {
-	padding: 1rem;
-    font-size: 85%;
-    line-height: 1.45;
+    padding         : 1rem;
+    font-size       : 85%;
+    line-height     : 1.45;
     background-color: #f7f7f7;
-    border: 0;
-    border-radius: 3px;
-    color: #777777;
-    margin-top: 0 !important;
+    border          : 0;
+    border-radius   : 3px;
+    color           : #777777;
+    margin-top      : 0 !important;
 }
 
 .mathjax-block>.code-tooltip {
-	bottom: .375rem;
+    bottom: .375rem;
 }
 
 .md-mathjax-midline {
     background: #fafafa;
 }
 
-#write>h3.md-focus:before{
-	left: -1.5625rem;
-	top: .375rem;
+#write>h3.md-focus:before {
+    left: -1.5625rem;
+    top : .375rem;
 }
-#write>h4.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+
+#write>h4.md-focus:before {
+    left: -1.5625rem;
+    top : .285714286rem;
 }
-#write>h5.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+
+#write>h5.md-focus:before {
+    left: -1.5625rem;
+    top : .285714286rem;
 }
-#write>h6.md-focus:before{
-	left: -1.5625rem;
-	top: .285714286rem;
+
+#write>h6.md-focus:before {
+    left: -1.5625rem;
+    top : .285714286rem;
 }
+
 .md-image>.md-meta {
-    /*border: 1px solid #ddd;*/
+    /*border     : 1px solid #ddd;*/
     border-radius: 3px;
-    padding: 2px 0px 0px 4px;
-    font-size: 0.9em;
-    color: inherit;
+    padding      : 2px 0px 0px 4px;
+    font-size    : 0.9em;
+    color        : inherit;
 }
 
 .md-tag {
-    color: #a7a7a7;
+    color  : #a7a7a7;
     opacity: 1;
 }
 
-.md-toc { 
-    margin-top:20px;
-    padding-bottom:20px;
+.md-toc {
+    margin-top    : 20px;
+    padding-bottom: 20px;
 }
 
 .sidebar-tabs {
@@ -537,15 +541,15 @@ code {
 }
 
 #typora-quick-open {
-    border: 1px solid #ddd;
+    border          : 1px solid #ddd;
     background-color: #f8f8f8;
 }
 
 #typora-quick-open-item {
     background-color: #FAFAFA;
-    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
-    border-style: solid;
-    border-width: 1px;
+    border-color    : #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style    : solid;
+    border-width    : 1px;
 }
 
 /** focus mode */
@@ -553,12 +557,15 @@ code {
     border-left-color: rgba(85, 85, 85, 0.12);
 }
 
-header, .context-menu, .megamenu-content, footer{
+header,
+.context-menu,
+.megamenu-content,
+footer {
     font-family: "Segoe UI", "Arial", sans-serif;
 }
 
 .file-node-content:hover .file-node-icon,
-.file-node-content:hover .file-node-open-state{
+.file-node-content:hover .file-node-open-state {
     visibility: visible;
 }
 
@@ -571,9 +578,9 @@ header, .context-menu, .megamenu-content, footer{
     color: #b4654d;
 }
 
-/*.html-for-mac {
+.html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
-}*/
+}
 
 #md-notification .btn {
     border: 0;
@@ -581,7 +588,6 @@ header, .context-menu, .megamenu-content, footer{
 
 .dropdown-menu .divider {
     border-color: #e5e5e5;
-    opacity: 0.4;
 }
 
 .ty-preferences .window-content {
@@ -589,17 +595,11 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 .ty-preferences .nav-group-item.active {
-    color: white;
+    color     : white;
     background: #999;
 }
 
-.menu-item-container a.menu-style-btn {
-    background-color: #f5f8fa;
-    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
-}
-
-
- :root {--mermaid-font-zoom:1em ;}  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+ :root {--mermaid-font-zoom:1em ;}  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;}
 </style><title>README</title>
 <!-- START Inserted by CORE -->
 <style type="text/css">
@@ -1331,9 +1331,624 @@ header, .context-menu, .megamenu-content, footer{
 
 <!-- END Inserted by CORE -->
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="./all(1).css">
+<style type="text/css">
+    #ssb_alexa_blue {
+        background-color: #3366ff;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #3366ff;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_alexa_ocean {
+        background-color: #00a0d2;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #00a0d2;
+        white-space: nowrap
+    }
+    #ssb_alexa_sand {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        font-size: 90%;
+        color: #00a0d2;
+        position: relative;
+        top: -1px;
+        border-color: #dcdcdc;
+        border-style: solid;
+        border-width: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_alexa_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #00a0d2;
+        position: relative;
+        top: -1px;
+        border-color: #00a0d2;
+        border-style: solid;
+        border-width: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_blue {
+        background-color: #257ACF;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_catalog_orange {
+        background-color: #E36000;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        border-radius: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_catalog_red {
+        background-color: #D90000;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        border-radius: 5px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_dark_blue {
+        color: white;
+        background-color: darkblue;
+        border-radius: 3px;
+        padding: 0px 6px;
+        white-space: nowrap
+    }
+    #ssb_grafana_blue {
+        background-color: #00678b;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #00678b;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_grafana_green {
+        background-color: #629300;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #629300;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_grafana_orange {
+        background-color: #ec8427;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #ec8427;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_grey {
+        background-color: #DEDEDE;
+        font-weight: bold;
+        font-size: 90%;
+        color: #444;
+        position: relative;
+        top: -1px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #444;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_grey_square {
+        background-color: #DEDEDE;
+        font-weight: bold;
+        font-size: 90%;
+        color: #444;
+        position: relative;
+        top: -1px;
+        border-radius: 1px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #444;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_iot_blue {
+        background-color: #00A1C9;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #00A1C9;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_iot_grey {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: gray;
+        position: relative;
+        top: -1px;
+        border-color: gray;
+        border-radius: 2px;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_iot_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #00A1C9;
+        position: relative;
+        top: -1px;
+        border-color: #00A1C9;
+        border-radius: 2px;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_kibana_blue {
+        background-color: #0079a5;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #0079a5;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_kibana_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #0079a5;
+        position: relative;
+        top: -1px;
+        border-color: #0079a5;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_lambda_orange {
+        background-color: #ec7211;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_lambda_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #545b64;
+        position: relative;
+        top: -1px;
+        border-color: #545b64;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_maroon {
+        color: white;
+        background-color: darkred;
+        border-radius: 3px;
+        padding: 0px 6px;
+        white-space: nowrap
+    }
+    #ssb_orange {
+        background-color: #ec7211;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssl_orange {
+        color: #ec7211;
+        font-weight: bold
+    }
+    #ssb_orange_oval {
+        background-color: #ec7211;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        white-space: nowrap
+    }
+    #ssb_oval {
+        background-color: #DEDEDE;
+        font-weight: bold;
+        font-size: 90%;
+        color: #444;
+        position: relative;
+        top: -1px;
+        border-radius: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #444;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_start_lab {
+        background-color: #34A853;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        border-radius: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px
+    }
+    #ssb_open_console {
+        background-color: white;
+        font-family: Google Sans;
+        font-weight: bold;
+        font-size: 90%;
+        color: #1a73e8;
+        border-color: #dadce0;
+        border-radius: 4px;
+        border-width: 2px;
+        border-style: solid;
+        outline-color: #ffffff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    #ssb_rds_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #545b64;
+        position: relative;
+        top: -1px;
+        border-color: #545b64;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_red {
+        background-color: #D93025;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        border-radius: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px
+    }
+    #ssb_red_oval {
+        background-color: #D93025;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 20px;
+        white-space: nowrap
+    }
+    #ssb_s3_blue {
+        background-color: #329AD6;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_s3_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #329AD6;
+        position: relative;
+        top: -1px;
+        border-color: #329AD6;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_services {
+        background-color: #232f3e;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_square_lex {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #1166bb;
+        position: relative;
+        top: -1px;
+        border-color: #c4cbcd;
+        border-style: solid;
+        border-width: 2px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    #ssb_ssm_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #545b64;
+        position: relative;
+        top: -1px;
+        border-color: #545b64;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssb_white {
+        background-color: white;
+        font-weight: bold;
+        font-size: 90%;
+        color: #545b64;
+        position: relative;
+        top: -1px;
+        border-color: #545b64;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssbox_cloudformation_blue {
+        font-weight: bold;
+        background-color: #f1faff;
+        font-size: 90%;
+        border-color: #00A1C9;
+        border-width: 1px;
+        border-style: solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #ssl_alexa_ocean {
+        color: #00a0d2;
+        font-weight: bold
+    }
+    #ssl_blue {
+        color: #1166bb;
+        font-weight: bold
+    }
+    #ssl_catalog_orange {
+        color: #E16706;
+        font-weight: bold
+    }
+    #ssb_codestar_blue {
+        background-color: #329AD6;
+        font-weight: bold;
+        font-size: 80%;
+        color: white;
+        position: relative;
+        top: -1px;
+        border-radius: 1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap
+    }
+    #ssb_cognito_blue {
+        background-color: #2a7fd4;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #0055aa;
+        border-radius: 2px;
+        white-space: nowrap
+    }
+    #ssb_eb_blue {
+        background-color: #0f6dca;
+        font-weight: bold;
+        font-size: 90%;
+        color: white;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #0055aa;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        white-space: nowrap;
+    }
+    #ssb_eb_grey {
+        background-color: #e5e5e5;
+        font-weight: bold;
+        font-size: 90%;
+        color: 444444;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: #bbbbbb;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        white-space: nowrap
+    }
+    #ssb_voc_grey {
+        background-color: #F2F3F4;
+        font-size: 90%;
+        color: black;
+        position: relative;
+        top: -1px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-color: grey;
+        border-width: 1px;
+        border-style: solid;
+        white-space: nowrap
+    }
+</style>
+
 </head>
 <body class="typora-export os-windows"><div class="typora-export-content">
-<div id="write" class=""><h1 id="laboratorio-del-módulo-9-creación-de-una-alarma-de-cloudwatch-que-inicie-un-mensaje-de-amazon-sns"><span>Laboratorio del módulo 9: Creación de una alarma de CloudWatch que inicie un mensaje de Amazon SNS</span></h1><h2 id="información-general-sobre-el-laboratorio"><span>Información general sobre el laboratorio</span></h2><p><span>En este laboratorio, crearás una alarma de Amazon CloudWatch que te avise cuando la cuenta haya gastado más de una determinada cantidad de dinero. La alarma envía un mensaje a Amazon Simple Notification Service (Amazon SNS) para que envíe una notificación por correo electrónico o mensaje de texto.</span></p><h2 id="duración"><span>Duración</span></h2><p><span>El tiempo estimado para completar este laboratorio es de </span><strong><span>40&nbsp;minutos</span></strong><span>.</span></p><h2 id="acceso-a-la-consola-de-administración-de-aws"><span>Acceso a la consola de administración de AWS</span></h2><ol start=""><li><p><span>Para comenzar la sesión de laboratorio, selecciona </span><i class="fas fa-caret-right"></i><span> </span><strong><span>Start Lab</span></strong><span> (Iniciar laboratorio) en la esquina superior derecha de la página.</span></p><ul><li><p><span>Comienza la sesión del laboratorio.</span></p></li><li><p><span>En la esquina superior derecha de esta página aparece un temporizador que muestra el tiempo que queda de la sesión.</span></p><p><strong><span>Sugerencia:</span></strong><span> Para actualizar la duración de la sesión en cualquier momento, vuelve a seleccionar </span><strong><span>Start Lab</span></strong><span> (Iniciar laboratorio) antes de que el temporizador llegue a 0:00.</span></p></li></ul><p><span>Antes de continuar, espera hasta que el entorno de laboratorio esté listo. El entorno está listo cuando aparecen los detalles del laboratorio en el lado derecho de la página y el icono del círculo junto al enlace de </span><strong><span>AWS</span></strong><span> en la esquina superior izquierda pasa a ser verde.</span></p></li><li><p><span>Para volver a estas instrucciones, selecciona el enlace </span><i class="fas fa-info"></i><span> </span><strong><span>Readme</span></strong><span> (Léeme) en la esquina superior derecha.</span></p></li><li><p><span>Para conectarte a la consola de administración de AWS, selecciona el enlace de </span><strong><span>AWS</span></strong><span> en la esquina superior izquierda, encima de la ventana del terminal.</span></p><p><span>Se abre una nueva pestaña del navegador que te conecta a la consola de administración de AWS.</span></p><p><strong><span>Sugerencia:</span></strong><span> Si no se abre una pestaña nueva del navegador, generalmente aparece un banner o un icono en la parte superior de este, el cual indica que el navegador no permite que se abran ventanas emergentes en el sitio. Elige el banner o el icono y, a continuación, selecciona </span><strong><span>Permitir elementos emergentes</span></strong><span>.</span></p><p><strong><span>Nota:</span></strong><span> Vas a utilizar la consola en el entorno de laboratorio, por lo que no incurrirás en ningún gasto real. Sin embargo, en el mundo real, cuando se utiliza una cuenta personal o de empresa para acceder a la consola, los usuarios incurren en gastos por el uso de servicios específicos de AWS.</span></p></li></ol><h2 id="tarea-1-crear-y-suscribirse-a-un-tema-de-sns"><span>Tarea 1. Crear y suscribirse a un tema de SNS</span></h2><ol start="4"><li><p><span>Selecciona el menú </span><strong><span>Servicios</span></strong><span>, localiza la sección </span><strong><span>Integración de aplicaciones</span></strong><span> y elige </span><strong><span>Simple Notification Service</span></strong><span>.</span></p></li><li><p><span>En el panel de navegación izquierdo, selecciona </span><strong><span>Temas</span></strong><span>.</span></p><p><strong><span>Nota:</span></strong><span> Si no ves el panel de navegación izquierdo, selecciona el icono de menú de tres rayas </span><i class="fas fa-bars"></i><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Crear un tema</span></strong><span>.</span></p><p><span>Un tema actúa como un canal de comunicación donde se pueden publicar mensajes de alertas y eventos.</span></p></li><li><p><span>En </span><strong><span>Tipo</span></strong><span>, selecciona </span><strong><span>Estándar</span></strong><span>.</span></p></li><li><p><span>En </span><strong><span>Nombre</span></strong><span>, introduce </span><code>MoneyAlert</code></p></li><li><p><span>Selecciona </span><strong><span>Crear un tema</span></strong><span>.</span></p></li></ol><p><span>Ahora te suscribirás a este tema para que, cuando se publique un mensaje en el tema, se te envíe una notificación a tu teléfono o correo electrónico.</span></p><ol start="10"><li><p><span>En la sección </span><strong><span>Suscripciones</span></strong><span>, elige </span><strong><span>Crear suscripción</span></strong><span>.</span></p></li><li><p><span>En </span><strong><span>ARN del tema</span></strong><span>, selecciona el tema </span><strong><span>MoneyAlert</span></strong><span> que has creado.</span></p></li><li><p><span>Para </span><strong><span>Protocolo</span></strong><span>, selecciona </span><strong><span>Correo electrónico</span></strong><span> para recibir una alerta por correo.</span></p></li><li><p><span>En </span><strong><span>Punto de enlace</span></strong><span>, introduce la dirección de correo electrónico o número de teléfono, según lo que hayas seleccionado para </span><strong><span>Protocolo</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Crear suscripción</span></strong><span>.</span></p><p><strong><span>Nota:</span></strong><span> Aparece un mensaje de confirmación en la parte superior de la página. Asegúrate de </span><strong><span>Confirmar suscripción</span></strong><span> cuando hayas recibido el correo.</span></p></li></ol><h2 id="tarea-2-crear-una-alarma-de-cloudwatch"><span>Tarea 2. Crear una alarma de CloudWatch.</span></h2><p><span>Ahora crearás la alerta de facturación.</span></p><ol start="15"><li><p><span>Selecciona el menú </span><strong><span>Servicios</span></strong><span>, localiza la sección </span><strong><span>Administración y gobernanza</span></strong><span> y elige </span><strong><span>CloudWatch</span></strong><span>.</span></p></li><li><p><span>En el panel de navegación izquierdo, selecciona </span><strong><span>Alarmas</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Crear alarmas</span></strong><span> y después </span><strong><span>Crear alarma</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Seleccionar métrica</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Facturación</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Cargo total estimado</span></strong><span>.</span></p></li><li><p><span>Marca la casilla </span><strong><span>EstimatedCharges</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Seleccionar métrica.</span></strong></p></li><li><p><span>En la sección </span><strong><span>Condiciones</span></strong><span>, configura lo siguiente:</span></p><ul><li><span>En </span><strong><span>Tipo de límite</span></strong><span>, selecciona </span><strong><span>Estático</span></strong><span>.</span></li><li><span>En </span><strong><span>Siempre que EstimatedCharges sea...</span></strong><span>, selecciona </span><strong><span>Mayor</span></strong><span>.</span></li><li><span>En </span><strong><span>que...</span></strong><span>, introduce </span><code>100</code><span> en el cuadro de texto.</span></li></ul></li><li><p><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></p></li><li><p><span>En la sección </span><strong><span>Notificación</span></strong><span>, configura lo siguiente:</span></p><ul><li><span>En </span><strong><span>Activador de estado de alarma</span></strong><span>, selecciona </span><strong><span>En modo alarma</span></strong><span>.</span></li><li><span>Para </span><strong><span>Enviar una notificación al siguiente tema de SNS</span></strong><span>, selecciona </span><strong><span>Seleccione un tema de SNS existente</span></strong><span>.</span></li><li><span>En </span><strong><span>Enviar una notificación a...</span></strong><span>, selecciona el tema </span><strong><span>MoneyAlert</span></strong><span>.</span></li></ul></li><li><p><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></p></li><li><p><span>En </span><strong><span>Nombre de la alarma</span></strong><span>, escribe </span><code>MoneyAlertAlarm</code></p></li><li><p><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></p></li><li><p><span>Revisa la configuración. Desplázate hacia abajo y selecciona </span><strong><span>Crear alarma</span></strong><span>.</span></p></li></ol><p><span>¡Enhorabuena! Has configurado una alarma de CloudWatch que utiliza Amazon SNS para enviar una alerta cuando el coste de los servicios alcanza los 100 USD.</span></p><h2 id="laboratorio-completado"><span>Laboratorio completado</span></h2><p><span>¡Enhorabuena! Has completado el laboratorio.</span></p><ol start="30"><li><p><span>Cierra la sesión de la consola de administración de AWS.</span></p><ul><li><span>En la esquina superior derecha de la página, elige tu nombre de usuario. Tu nombre de usuario comienza por </span><strong><span>voclabs/user</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Cerrar sesión</span></strong><span>.</span></li></ul></li><li><p><span>Selecciona </span><span id="ssb_voc_grey"><strong><span>Finalizar laboratorio</span></strong></span><span> en la parte superior de esta página y, a continuación, selecciona </span><span id="ssb_blue"><strong><span>Sí</span></strong></span><span> para confirmar que quieres dar por concluido el laboratorio.</span></p></li></ol></div></div>
-<script defer="" src="./vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon="{&quot;rayId&quot;:&quot;887accb759ed951f&quot;,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;a73834a4a1444e9ab89e8da06da41720&quot;}" crossorigin="anonymous"></script>
+<div id="write" class=""><h1 id="laboratorio-del-módulo-12-uso-de-elastic beanstalk-y-cloudformation"><span>Laboratorio del módulo 12: Uso de Elastic&nbsp;Beanstalk y CloudFormation</span></h1><h2 id="información-general-sobre-el-laboratorio"><span>Información general sobre el laboratorio</span></h2><p><span>En este laboratorio, crearás una aplicación con AWS Elastic Beanstalk. También utilizarás una plantilla y AWS CloudFormation para crear una nube virtual privada (VPC).</span></p><h2 id="duración"><span>Duración</span></h2><p><span>El tiempo estimado para completar este laboratorio es de </span><strong><span>45&nbsp;minutos</span></strong><span>.</span></p><h2 id="acceso-a-la-consola-de-administración-de-aws"><span>Acceso a la consola de administración de AWS</span></h2><ol start=""><li><p><span>Para comenzar la sesión de laboratorio, selecciona </span><i class="fas fa-caret-right"></i><span> </span><strong><span>Start Lab</span></strong><span> (Iniciar laboratorio) en la esquina superior derecha de la página.</span></p><ul><li><p><span>Comienza la sesión del laboratorio.</span></p></li><li><p><span>En la esquina superior derecha de esta página aparece un temporizador que muestra el tiempo que queda de la sesión.</span></p><p><strong><span>Sugerencia:</span></strong><span> Para actualizar la duración de la sesión en cualquier momento, vuelve a seleccionar </span><strong><span>Start Lab</span></strong><span> (Iniciar laboratorio) antes de que el temporizador llegue a 0:00.</span></p></li></ul><p><span>Antes de continuar, espera hasta que el entorno de laboratorio esté listo. El entorno está listo cuando aparecen los detalles del laboratorio en el lado derecho de la página y el icono del círculo junto al enlace de </span><strong><span>AWS</span></strong><span> en la esquina superior izquierda pasa a ser verde.</span></p></li><li><p><span>Para volver a estas instrucciones, selecciona el enlace </span><i class="fas fa-info"></i><span> </span><strong><span>Readme</span></strong><span> (Léeme) en la esquina superior derecha.</span></p></li><li><p><span>Para conectarte a la consola de administración de AWS, selecciona el enlace de </span><strong><span>AWS</span></strong><span> en la esquina superior izquierda, encima de la ventana del terminal.</span></p><p><span>Se abre una nueva pestaña del navegador que te conecta a la consola de administración de AWS.</span></p><p><strong><span>Sugerencia:</span></strong><span> Si no se abre una pestaña nueva del navegador, generalmente aparece un banner o un icono en la parte superior de este, el cual indica que el navegador no permite que se abran ventanas emergentes en el sitio. Elige el banner o el icono y, a continuación, selecciona </span><strong><span>Permitir elementos emergentes</span></strong><span>.</span></p><p><strong><span>Nota:</span></strong><span> Vas a utilizar la consola en el entorno de laboratorio, por lo que no incurrirás en ningún gasto real. Sin embargo, en el mundo real, cuando se utiliza una cuenta personal o de empresa para acceder a la consola, los usuarios incurren en gastos por el uso de servicios específicos de AWS.</span></p></li></ol><h2 id="tarea-1-implementar-una-aplicación-mediante-elastic-beanstalk"><span>Tarea 1. Implementar una aplicación mediante Elastic Beanstalk</span></h2><ol start=""><li><span>Selecciona el menú </span><strong><span>Servicios</span></strong><span>, localiza los servicios de </span><strong><span>Computación</span></strong><span> y luego selecciona </span><strong><span>Elastic Beanstalk</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Crear aplicación</span></strong><span>.</span></li><li><span>En </span><strong><span>Nombre de la aplicación</span></strong><span>, escribe un nombre para la aplicación; por ejemplo, </span><code>MyLabApp</code></li><li><span>En </span><strong><span>Plataforma</span></strong><span>, selecciona </span><strong><span>PHP</span></strong><span>.</span></li><li><span>En </span><strong><span>Código de la aplicación</span></strong><span>, selecciona </span><strong><span>Aplicación de ejemplo</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Roles de servicio existentes</span></strong><span>, abre el menú desplegable y selecciona </span><strong><span>EMR_EC2_DefaultRole</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Par de claves de EC2</span></strong><span>, abre el menú desplegable y selecciona </span><strong><span>vockey</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Perfil de instancia de EC2</span></strong><span>, abre el menú desplegable y selecciona </span><strong><span>EMR_EC2_DefaultRole</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>VPC</span></strong><span>, selecciona la VPC disponible.</span></li><li><span>Bajo </span><strong><span>Dirección IP pública</span></strong><span>, selecciona </span><strong><span>Activada</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Subredes de instancia</span></strong><span>, selecciona al menos dos.</span></li><li><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Grupos de seguridad de EC2</span></strong><span>, selecciona el grupo </span><strong><span>predeterminado</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Informes de estado</span></strong><span>, selecciona </span><strong><span>Básico</span></strong><span>.</span></li><li><span>Bajo </span><strong><span>Actualizaciones administradas</span></strong><span>, anula la selección como </span><strong><span>Activadas</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Enviar</span></strong><span>.</span></li></ol><p><span>Observa la consola mientras Elastic Beanstalk crea y ejecuta los recursos necesarios para ejecutar la aplicación. El proceso tarda entre 5 y 10 minutos en completarse.</span></p><p><span>Elastic Beanstalk crea un bucket de almacenamiento de Amazon Simple Storage Service (Amazon S3) y un grupo de seguridad, lanza una instancia de Amazon Elastic Compute Cloud (Amazon EC2) y ejecuta el código.</span></p><p><span>Cuando haya concluido, la pantalla cambiará para mostrar el entorno recién creado. Ya puedes subir una aplicación PHP.</span></p><ol start=""><li><p><span>Abre una nueva pestaña o ventana del navegador. Navega a la </span><a href="https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/tutorials.html" target="_blank" rel="noopener noreferrer"><span>página web Ejemplos y tutoriales de AWS</span></a><span>.</span></p></li><li><p><span>En la página, en la segunda lista de descargas, busca </span><strong><span>PHP – php.zip</span></strong><span>. Descarga la aplicación </span><strong><span>PHP</span></strong><span> de ejemplo en tu equipo.</span></p><p><span>Ahora deberías tener un archivo llamado </span><em><span>php.zip</span></em><span>.</span></p></li><li><p><span>Vuelve a la pestaña de la consola de Elastic Beanstalk.</span></p></li><li><p><span>Selecciona </span><strong><span>Cargar e implementar</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Elegir archivo</span></strong><span>, navega hasta y selecciona el archivo </span><em><span>php.zip</span></em><span> que acabas de descargar y elige </span><strong><span>Abrir</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Implementar</span></strong><span>.</span></p><p><span>La aplicación se despliega en el entorno utilizando todos los recursos en la nube aprovisionados por Elastic Beanstalk.</span></p></li><li><p><span>Para ver tu sitio web PHP, bajo </span><strong><span>Información general del entorno</span></strong><span>, selecciona </span><strong><span>Dominio</span></strong><span>.</span></p><p><span>La aplicación web se abre en una nueva pestaña.</span></p></li></ol><h2 id="tarea-2-implementar-una-aplicación-mediante-cloudformation"><span>Tarea 2. Implementar una aplicación mediante CloudFormation</span></h2><ol start=""><li><p><span>Vuelve a la pestaña de la consola de administración de AWS.</span></p></li><li><p><span>Selecciona el menú </span><strong><span>Servicios</span></strong><span>, localiza los servicios de </span><strong><span>Computación</span></strong><span> y selecciona </span><strong><span>EC2</span></strong><span>.</span></p></li><li><p><span>En el panel de navegación izquierdo, en </span><strong><span>Red y seguridad</span></strong><span>, selecciona </span><strong><span>Pares de claves</span></strong><span>.</span></p></li><li><p><span>Selecciona </span><strong><span>Crear par de claves</span></strong><span>.</span></p></li><li><p><span>En </span><strong><span>Nombre</span></strong><span>, introduce </span><code>CFLearner</code></p></li><li><p><span>Selecciona </span><strong><span>Crear par de claves</span></strong><span>.</span></p></li><li><p><span>Cuando se abra la ventana de descarga, selecciona </span><strong><span>Cancelar</span></strong><span>. No es necesario descargar el archivo.</span></p></li><li><p><span>Selecciona el menú </span><strong><span>Servicios</span></strong><span>, localiza los servicios de </span><strong><span>Administración y gobernanza</span></strong><span> y elige </span><strong><span>CloudFormation</span></strong><span>.</span></p><p><span>Aparece la lista </span><strong><span>Pilas</span></strong><span> y se muestran las pilas de CloudFormation que se crearon en el entorno de laboratorio. Observa la pila cuya </span><strong><span>Descripción</span></strong><span> dice </span><em><span>Entorno de AWS Elastic Beanstalk</span></em><span>. Esta pila se creó automáticamente cuando se implementó la aplicación a través de Elastic Beanstalk.</span></p><p><span>Esto muestra cómo los dos servicios trabajan juntos para crear un entorno para ejecutar el código.</span></p></li><li><p><span>Selecciona </span><strong><span>Crear pila</span></strong><span> y, a continuación, elige </span><strong><span>Con recursos nuevos (estándar)</span></strong><span>.</span></p></li><li><p><span>En la sección </span><strong><span>Requisito previo</span></strong><span>, elige </span><strong><span>Utilizar una plantilla de ejemplo</span></strong><span>.</span></p></li><li><p><span>En la sección </span><strong><span>Seleccionar una plantilla de ejemplo</span></strong><span>, selecciona </span><strong><span>Blog de WordPress</span></strong><span>.</span></p><p><span>WordPress es un software web que puedes utilizar para crear un sitio web o blog. Esta plantilla instala una implementación de WordPress escalable y de alta disponibilidad con una instancia de base de datos Amazon Relational Database Service (Amazon RDS) para el almacenamiento.</span></p></li><li><p><span>Selecciona </span><strong><span>Siguiente</span></strong><span>.</span></p></li><li><p><span>En </span><strong><span>Nombre de la pila</span></strong><span>, escribe: </span><code>WordPressStack</code></p></li><li><p><span>En la sección </span><strong><span>Parámetros</span></strong><span>, configura lo siguiente:</span></p></li></ol><ul><li><strong><span>DBPassword:</span></strong><span> escribe </span><code>Testing1</code></li><li><strong><span>DBUser:</span></strong><span> escribe </span><code>testadmin</code></li><li><strong><span>KeyName:</span></strong><span> selecciona el par de claves </span><strong><span>CFLearner</span></strong></li></ul><ol start=""><li><p><span>Selecciona </span><strong><span>Siguiente</span></strong><span> y, a continuación, selecciona </span><strong><span>Siguiente</span></strong><span> de nuevo.</span></p><p><span>Usarás las opciones de pila predeterminadas.</span></p></li><li><p><span>Revisa la configuración de la pila y, a continuación, selecciona </span><strong><span>Enviar</span></strong><span>.</span></p><p><span>Esto inicia la implementación de los recursos. Puedes ver los eventos de pila de CloudFormation en la pestaña </span><strong><span>Eventos</span></strong><span> cuando la creación del sitio WordPress se ha completado.</span></p></li></ol><h2 id="laboratorio-completado"><span>Laboratorio completado</span></h2><p><span>¡Enhorabuena! Has completado el laboratorio.</span></p><ol start=""><li><p><span>Cierra la sesión de la consola de administración de AWS.</span></p><ul><li><span>En la esquina superior derecha de la página, elige tu nombre de usuario. Tu nombre de usuario comienza por </span><strong><span>voclabs/user</span></strong><span>.</span></li><li><span>Selecciona </span><strong><span>Cerrar sesión</span></strong><span>.</span></li></ul></li><li><p><span>Selecciona </span><span id="ssb_voc_grey"><strong><span>Finalizar laboratorio</span></strong></span><span> en la parte superior de esta página y, a continuación, selecciona </span><span id="ssb_blue"><strong><span>Sí</span></strong></span><span> para confirmar que quieres dar por concluido el laboratorio.</span></p></li></ol></div></div>
+<script defer="" src="./vef91dfe02fce4ee0ad053f6de4f175db1715022073587" integrity="sha512-sDIX0kl85v1Cl5tu4WGLZCpH/dV9OHbA4YlKCuCiMmOQIk4buzoYDZSFj+TvC71mOBLh8CDC/REgE0GX0xcbjA==" data-cf-beacon="{&quot;rayId&quot;:&quot;88c0a7cc5b59b516&quot;,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;a73834a4a1444e9ab89e8da06da41720&quot;}" crossorigin="anonymous"></script>
 
 </body></html>
