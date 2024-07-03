@@ -63,11 +63,11 @@ nombre_topico = 'MiTopicoSNS'
 # Crear el tópico en SNS
 topic_arn = crear_topico_sns(nombre_topico)
 
-# Ejemplo de suscripción por correo electrónico
+# Ejemplo de suscripción por correo electrónico(reemplazar el enlace)
 email_address = 'akuntsueharu@gmail.com'
 suscripcion_email_arn = suscribir_email_a_topico(topic_arn, email_address)
 
-# Ejemplo de suscripción HTTP/S
+# Ejemplo de suscripción HTTP/S(reemplazar el enlace)
 endpoint_url = 'https://2pgrq3u54a.execute-api.us-east-1.amazonaws.com'
 suscripcion_http_arn = suscribir_http_a_topico(topic_arn, endpoint_url)
 
