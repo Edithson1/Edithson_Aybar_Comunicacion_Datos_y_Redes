@@ -2,6 +2,7 @@ import boto3
 import json
 from botocore.exceptions import ClientError
 
+#funcion para obtener el arn del topico a partir del nombre 
 def obtener_url_arn(nombre_topico):
     sns = boto3.client('sns')
     try:
@@ -15,6 +16,7 @@ def obtener_url_arn(nombre_topico):
         print(f"Error al buscar el tópico por nombre: {e}")
         return None
 
+#funcion para suscribir sqs a topico de sns
 def suscribir_cola_sqs_a_topico_sns(topic_arn, queue_arn):
     sns = boto3.client('sns')
     try:
