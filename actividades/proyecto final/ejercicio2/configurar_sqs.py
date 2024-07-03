@@ -74,7 +74,7 @@ colas = [
 ]
 
 for cola in colas:
-    sqs_urls.append(cola['nombre'], cola['visibility_timeout'], cola['message_retention_period'], cola['delay_seconds']))
+    sqs_urls.append(crear_cola_sqs(cola['nombre'], cola['visibility_timeout'], cola['message_retention_period'], cola['delay_seconds']))
 for queue_url in sqs_urls:
     # Enviar un mensaje a la cola SQS
     if queue_url:
@@ -84,4 +84,4 @@ for queue_url in sqs_urls:
                 'Mensaje 3 para la cola SQS'
         ]
         enviar_mensajes_a_cola(queue_url, mensajes)
-        leer_y_procesar_mensajes(queue_url)
+        recibir_y_eliminar_mensajes(queue_url)
