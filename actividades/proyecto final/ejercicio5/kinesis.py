@@ -4,6 +4,7 @@ import time
 import threading
 from botocore.exceptions import ClientError
 
+#crea flujo de dato de kinesis
 def crear_flujo_datos_kinesis(nombre_flujo, numero_fragmentos):
     kinesis = boto3.client('kinesis')
     try:
@@ -17,6 +18,7 @@ def crear_flujo_datos_kinesis(nombre_flujo, numero_fragmentos):
         print(f"Error al crear el flujo de datos en Kinesis: {e}")
         return None
 
+#Envia datos continuamente
 def productor_datos(datos, stream_name):
     kinesis = boto3.client('kinesis')
     while True:
@@ -28,6 +30,7 @@ def productor_datos(datos, stream_name):
         print(f"Registro enviado: {response['SequenceNumber']}")
         time.sleep(1)  # Intervalo de tiempo entre envíos (1 segundo en este ejemplo)
 
+#analiza los datos que se envien anteriormente
 def consumidor_datos(stream_name):
     kinesis = boto3.client('kinesis')
     try:
